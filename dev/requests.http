@@ -1,0 +1,16 @@
+###
+GET http://localhost:8080/status
+API-Version: 1.0
+
+### Response
+Application is running! In verwion 1.0
+###
+
+###
+GET http://localhost:8080/status
+API-Version: 2.0
+
+### Response
+Application is running! In verwion 2.0
+###
+
