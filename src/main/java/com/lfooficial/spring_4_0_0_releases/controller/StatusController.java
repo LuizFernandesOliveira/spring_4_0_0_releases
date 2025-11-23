@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StatusController {
 
-  @GetMapping(path = "/status", version = "1.0")
+  @GetMapping(path = "/status")
   public String status() {
     return "Application is running! In version 1.0";
   }
